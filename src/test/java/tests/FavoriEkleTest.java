@@ -22,6 +22,7 @@ public class FavoriEkleTest {
 
         Thread.sleep(5);
         driver.get("https://www.cetinkaya.com.tr/armato-kadin-krem-kapusonlu-kaban-4/");
+        //burada çerezleri kabul etmem lazım
         WebElement favButton2= driver.findElement(By.id("add-to-wishlist-button-62334828e27b7f3506a01dbe"));
         favButton2.click();
 
